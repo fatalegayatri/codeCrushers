@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2&family=Dancing+Script:wght@500&family=Gentium+Book+Plus:ital@0;1&family=Ingrid+Darling&family=Libre+Baskerville:ital@1&family=Montserrat:wght@300&family=Mukta:wght@200&family=Open+Sans:wght@300&family=PT+Sans&family=PT+Sans+Narrow&family=PT+Serif&family=Poppins:wght@200&family=Roboto:wght@100&family=Source+Code+Pro:wght@300&family=Teko&family=Ubuntu+Condensed&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: "Baloo 2", cursive;
+  background: #0f172a;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
